@@ -1,10 +1,8 @@
 import data from "../assets/data.json"
 
 const TopNav = () => {
-  console.log('From top', data);
 
   const { topNav } = data;
-  console.log(topNav);
 
   const { menuIcon, logo, search, help, create } = topNav
 

@@ -2,8 +2,6 @@ import data from "../assets/data.json"
 
 const LeftSideBar = () => {
 
-  console.log(data);
-
   const { leftNavOpen, sidebarLinks, channel, bottomLinks } = data
 
 
